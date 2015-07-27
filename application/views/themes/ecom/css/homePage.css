@@ -1,0 +1,194 @@
+#main-heading {
+	position: absolute;
+	left: 100px;
+	top: 50px;
+	font-size: 14px;
+	z-index: -1;
+}
+
+#content .grouping {
+	position: relative;
+  height: 130px;
+  float: left;
+  overflow: hidden;
+  margin: 0px 8px;
+  padding:0px;
+  border:solid 1px #666666;
+}
+
+.categories {
+  background-image:url(img/categories_background.jpg);
+}
+
+.categories:hover {
+  background-image:url(img/categories_background_red.jpg);
+}
+
+.categories:hover a {
+  color:white;
+}
+
+.suppliers {
+  background-image:url(img/suppliers_background.jpg);
+}
+
+.suppliers:hover {
+  background-image:url(img/suppliers_background_red.jpg);
+}
+
+.suppliers:hover a {
+  color:white;
+}
+
+#content .grouping .title {
+  height:30px;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow:hidden;
+  padding:0px 7px;
+}
+
+#content .grouping .top_content p, .title {
+  font-size:12px;
+  padding:0px;
+  margin:0px;
+}
+
+.suppliers .top_content img {
+	max-width:220px;
+	max-height:60px;
+}
+
+.suppliers .top_content p a {
+	width:224px;
+	height:64px; 
+	display:table-cell;
+	vertical-align:middle;
+	background-color:white;
+	border:solid 1px #cccccc;
+	text-align:center;
+	*display:block;
+	margin-left:30px;
+	margin-top:20px;
+	margin-bottom:5px;
+}
+	
+.suppliers .top_content {
+	padding-left:30px;
+	*padding-left:0px;
+	padding-top:20px;
+	*padding-top:0px;
+	padding-bottom:5px;
+	*padding-bottom:0px;
+}
+
+.suppliers .title {
+  width:260px;	
+  
+}
+.suppliers {
+	width:286px;
+}
+
+.categories {
+  width:134px;
+}
+
+.categories .title {
+  width:120px;
+}
+
+.categories .top_content p a {
+  width:64px;
+ 	height:64px; 
+	display:block;
+	background-color:white;
+	border:solid 1px #cccccc;	
+	margin-left:34px;
+	margin-top:20px;
+	margin-bottom:5px;
+}
+
+.slider_content {
+	background-image:url(img/slider_background_dock.jpg);
+	background-repeat:no-repeat;
+	background-position: bottom left;
+	height:160px;
+	margin-top:15px;
+}
+
+.slider_button {
+	position:relative;
+	top:20px;
+}
+
+.tabber .tab {
+  padding: 0px;
+  margin:0px;
+}
+
+li.tab_selected {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+div.top_group {
+	margin-bottom: 20px;
+}
+
+.tabber {
+  float: left;
+}
+
+.right_button {
+	float:right;
+	right:0px;
+	margin:0px; 
+	padding:0px;
+}
+
+#content .see_all {
+  float: right;
+  display:block; 
+  padding:0px;
+  margin-right:60px;
+  color:#b42602;
+}
+
+#content .see_all a {
+	color:#b42603;
+	font-weight:bold;
+}
+
+#intro {
+	margin:10px 0 25px 0;
+	padding-top: 0px;
+}
+
+body.no-js div[data-tab-name="Suppliers"] {
+	display: none;
+}
+
+body.no-js .tab_tabs .nohand {
+	display: none;
+}
+
+body.no-js .tab_tabs .nohand.title {
+	display: inline;
+}
+
+body.no-js li[data-tab-target] {
+	display: none;
+}
+
+/* Widgets and stuff! */
+.grouping .as-dialog {
+	visibility: hidden;
+	position: absolute;
+	right: 4px;
+	top: 4px;
+}
+
+.grouping:hover .as-dialog {
+	visibility: visible;
+}

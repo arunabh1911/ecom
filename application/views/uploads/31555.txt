@@ -1,0 +1,29 @@
+member username pass
+uname: manojp
+pass: Y089ceTy
+
+cpanel details
+Siteground.com
+Username frizk272
+Pass : Discover1!
+
+
+http://m.frizk.in/install/
+database
+user: frizk272_test
+password 123qweasd
+Database frizk272_test
+
+
+
+1.Need to add google + login
+
+2.Refine search not working
+
+3.while posting ad error (img attached )
+
+4.while receiving mob number last 5 number changes to 00000
+
+in location its shows ad count after selecting there is no ads
+
+

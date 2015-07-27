@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* filter page */
+
+/* temporary styles to fix english text in RTL versions */
+.rtl .layout-threecolumn .content-column, .rtl .layout-threecolumn .content-column div, .rtl .layout-onecolumn, .rtl .layout-onecolumn div {
+    direction: ltr;
+}
+.rtl #breadcrumbs {
+	direction:rtl
+}
+
+.content-column {
+	max-width:1000px; 
+	min-width:800px;
+}
+
+.dsp-landing {
+	display:table
+}
+
+.dsp-title {
+	font-weight:bold; 
+	display:block; 
+	margin-bottom:5px;
+}
+
+.dsp-logo {
+	display:table-cell; 
+	margin:0 10px 10px 0; 
+	float:left;
+}
+
+.dsp-content {
+	display:table-cell;
+}
+
+.dsp-content .attributes {
+	line-height:20px;
+}
+
+.dsp-content .attributes dt {
+	font-weight:bold; 
+	clear:both; 
+	float:left; 
+	margin-right:10px; 
+}
+
+.dsp-content .attributes dd {
+	display:table-cell;
+}
+
+hr {
+	clear:both;
+    border: 0;
+    height: 0;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #cccccc;
+}
+
+.filter-section {
+	display:table-cell;
+	width:250px; 
+	padding-right:25px;
+}
+
+.results-section {
+	display:table-cell;
+}
+
+.closed {
+	background: url(/~/media/Images/Global/Icons/plus-sign.gif) no-repeat 3px 50%;
+}
+	
+.open {
+	background: url(/~/media/Images/Global/Icons/minus-sign.gif) no-repeat 3px 50%;
+}
+
+.filter-item .category {
+	font-weight:bold;
+	padding-left:15px;
+	cursor:pointer;
+}
+
+.filter-item span.category {
+	display:inline-block;
+	margin:2px 0
+}
+
+.filter-item div ul {
+	margin-left:5px; 
+	padding-left:5px; 
+	list-style-type:none
+}
+	
+.filter-item div ul li ul {
+	padding-left:0px; 
+	margin-left:0px; 
+	margin-top:5px; 
+	margin-bottom:10px;
+}
+	
+div.filter-item {
+	border:solid 1px #000; 
+	margin:0 0 5px 0; 
+	background-color:#f9f9f9;
+}
+
+div.filter-item h3 {
+	background-color:#ccc; 
+	border-bottom:solid 1px #000; 
+	padding:5px; 
+	margin:0px;
+}
+
+.clear-filters {
+	margin-bottom:5px; 
+	display:inline-block;
+}
+
+.filter-item div ul li span {display:table; margin-bottom:5px;}
+.filter-item div ul li label {display:table-cell; vertical-align:top; padding-top:2px;}
+.filter-item input {float:left; clear:both; display:table-cell; vertical-align:top;}
+
+
+/* provider page */
+
+.company-logo {float:left; margin-right:20px; display:table-cell;}
+#company-info {display:table-cell;}
+#company-info h1 {margin:0 0 5px 0;}
+#company-info div {margin-bottom:5px;}
+#company-info .label {font-weight:bold;}
+.company-survey {margin-top:15px;}
+.dsp-column {display:table-cell; min-width:200px; max-width:250px; padding-right:15px;}
+.dsp-column ul {
+	margin-left:0; 
+	padding-left:0; 
+}
+.dsp-column ul.third-level {
+	margin-left:15px; padding-left:15px; margin-top:5px;}
+	
+.dsp-column ul.third-level li span {
+	margin-left:0; padding-left:0;}
+.single ul.second-level {
+	margin-left:10px; padding-left:10px;}
+	
+.nested .second-level li {
+	cursor:pointer;
+	list-style-type:none;
+	margin-top:10px;
+}
+
+.nested .second-level li span {padding-left:15px;}
+
+
+.nested .third-level li {
+	list-style-type: disc;
+	cursor:default;
+	margin-top:inherit;
+}
+

@@ -1,0 +1,125 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* Newsroom content */
+#center_content {
+    width: 800px;
+}
+
+#center_content .endGrid {
+    clear: both; 
+    height: 20px;
+}
+
+#center_content .featured img {
+    margin: 0px 10px 10px 0px;
+    float: left;
+    padding: 2px;
+    border: solid 1px #cccccc;
+}
+
+.rtl #center_content .featured img {
+    margin: 0px 0px 10px 10px;
+    float: right;
+    padding: 2px;
+    border: solid 1px #cccccc;
+}
+
+#center_content h4 {
+    border-bottom: solid 1px #cccccc;
+    padding-bottom: 5px;
+    clear: both;
+    margin: 35px 0px 7px 0px;
+}
+
+
+/* Newsroom Grids */
+table.dataTable {
+    font-size: 11px;
+	border-spacing: 0px;
+}
+
+/* Newsroom Summary Table */
+#summary_table  {
+    display: table;
+    vertical-align: top;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: none;
+}
+
+.rtl #summary_table {
+	text-align:right;	
+}
+
+#summary_table div {
+	padding: 0px 8px 0px 0px;
+    vertical-align: top;
+	display: table-cell;
+}
+
+.rtl #summary_table div {
+	padding:0px 0px 0px 8px;	
+}
+
+.summary_table_headline {
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+    border-bottom: solid 1px #ccc;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+	font-size:12px;
+}
+
+.summary_table_title {
+	margin:8px 0px 0px 0px; 
+	padding:0px;
+	font-weight:bold;
+}
+
+a.summary_table_title, .summary_table_title a {
+	font-weight:normal;
+}
+
+.summary_table_desc {
+	margin:0px; 
+	padding:0px;
+}
+
+.summery_table_viewall {
+	margin:8px 0px 0px 0px;
+}
+
+#summary_table a {
+    display: block;
+}
+
+.featured-title  {
+    font-weight: bold;
+    padding-bottom:0px;
+    clear:both;
+}
+
+.bottom-border {
+	border-bottom: 1px solid #cccccc;
+}
+
+.italic-text {
+    font-style:italic;
+}
+
+.edContact p {
+	margin:0px; 
+	padding:0px;
+}
+
+p.location-date {
+	font-style:italic;
+	display:inline;
+}
+
+p.location-date + p {
+	display:inline;
+}

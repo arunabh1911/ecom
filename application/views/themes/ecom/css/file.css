@@ -1,0 +1,389 @@
+/******************************* General styling *******************************/
+div#content {
+  margin: 0 0 30px 15px;
+  padding: 0;
+  position: relative;
+  width: 985px;
+}
+
+#content img {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+#noprint {
+  clear: both;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0px;
+  clear: both;
+  visibility: hidden;
+}
+
+img.thumbnail {
+  width: 64px;
+  height: 64px;
+}
+
+#content .pagination .page_container {
+  float: right;
+  margin-left: 20px;
+}
+
+#content .pagination .page_container a,
+#content .pagination .page_container span {
+  float: left;
+  border: 1px solid black;
+  padding: 2px 7px;
+  margin-left: -1px;
+  text-decoration: none;
+  color: black;
+  background-color: #DDDDDD;
+  cursor: pointer;
+}
+
+#content .pagination .page_container .disabled {
+  color: #AAAAAA;
+  background-color: #DDDDDD;
+}
+
+#content .pagination .page_container .selected {
+  background-color: #777777;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+#content .pagination .page_container a:hover {
+  background-color: #BBBBBB;
+}
+
+#breadcrumbs {
+	margin: 12px 0 10px 0;
+}
+
+#breadcrumbs h1 {
+  display: inline;
+  font-size: 12px;
+  font-weight: normal;
+  color:#666666;
+  padding:0px; 
+  margin:0px;
+}
+
+#breadcrumbs a {
+  font-size: 12px;
+  font-weight: normal;
+	padding:0px; 
+  margin:0px;
+  color:#333333;
+}
+
+#breadcrumbs a, #breadcrumbs span {
+  white-space: nowrap;
+}
+
+.addthis_toolbox {
+	float: right;
+	margin-top: 5px;
+	width: 120px;
+}
+
+.addthis_toolbox > * {
+	margin-left: 3px;
+}
+
+#cc-description-header {
+	margin-bottom: 20px;
+}
+
+#cc-description-icon {
+	float: left;
+	text-align: center;
+	width: 270px;
+	margin-right: 15px;
+	height: 64px
+}
+
+#cc-description-text {
+	float: left;
+	width: 700px;
+}
+
+#cc-description-text > h1 {
+	font-weight: normal;
+	margin: 2px;
+}
+
+#intro h1 {
+	font-size: inherit;
+	display: inline;
+}
+
+li.title h2 {
+	font-size: inherit;
+	display: inline;
+	font-weight: inherit;
+}
+
+/******************************* Header styling *******************************/
+
+#dc-header {
+  margin-top: 9px;
+  background: url(img/techzone_search_bg_repeat.jpg) repeat-x;
+  padding: 8px 10px 12px 10px;
+}
+
+#second_logo img {
+	border: none;
+}
+
+#dc-header img {
+	border: none;
+}
+
+#dc-header label {
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+#header-search {
+	width: 152px;
+	vertical-align: middle;
+}
+
+#header-supplier {
+	width: 236px;
+	vertical-align: middle;
+}
+
+.header-search-icon {
+	display: inline-block;
+	width: 48px;
+	height: 22px;
+	border: none;
+	cursor: pointer;
+	outline-width: 0;
+	vertical-align: middle;
+}
+
+#header-search-go {
+	margin-right: 20px;
+	background: url(img/search_icon.jpg) no-repeat;
+}
+
+#header-supplier-go {
+	background: url(img/search_icon.jpg) no-repeat;
+}
+
+#tutorial-link {
+	float: right;
+	padding-top: 3px;
+}
+
+/******************************* Widget styling *******************************/
+.slider_button {
+  float: left;
+  cursor: pointer;
+  visibility: hidden;
+  position: relative;
+  padding:0px;
+  margin:0px;
+}
+
+.slider_content {
+	overflow: hidden;
+	/* IE 7 needs this to obey overflow: hidden; */
+	position: relative;
+	float: left;
+	width:910px;
+	padding-left:4px;
+}
+
+.slider_scroll {
+	position: relative;
+}
+
+.tab_tabs {
+  list-style-type: none;
+  margin: 0px 0px 5px 0px;
+  padding: 0px 0px 5px 0px;
+  width:981px;
+  border-bottom:solid 1px #666666; 
+}
+
+ul.tab_tabs {
+  padding:0px 0px 5px 0px;
+}
+
+.tab_tabs li {
+  float: left;
+  color: #666666;
+  margin-right:10px;
+  cursor: pointer;
+  font-weight:bold;
+  text-align:center; 
+  padding-top:2px;
+  border-bottom:solid 1px #666666;
+}
+
+.tab_tabs li.nohand  {
+	cursor:default; 
+	border-bottom:none;
+}
+
+.tab_tabs li.title {
+  font-size:16px;
+  color:#000000;
+  padding-top:0px;
+}
+
+.tab_tabs li.tab_selected {
+  z-index: 1;
+  color: #000000;
+  border-bottom:none;
+  cursor: default;
+}
+
+.content-box {
+	padding: 10px;
+	border: 1px solid #CCC;
+	margin-bottom: 10px;
+}
+
+.content-box > .content-title {
+	margin: -10px -10px 10px -10px;
+	padding: 2px 5px;
+	background-color: #CCC;
+	font-weight: bold;
+}
+
+#catalog-tools {
+	margin: 0;
+	padding: 0;
+}
+
+#catalog-tools > li {
+	list-style: none;
+}
+
+#catalog-tools > li > a {
+	color: #00F;
+}
+
+/******************************* Dialogs *******************************/
+.as-dialog {
+	color: #000;
+}
+
+.dialog {
+	width: 480px;
+}
+
+.dialog .fieldset {
+	margin: 3px;
+	border: 2px groove threedface;
+	padding: 5px;
+}
+
+.dialog > *, .dialog .fieldset > *, .dialog .row > * {
+	float: left;
+}
+
+.dialog .row {
+	margin: 5px 0 0 0;
+	line-height: 25px;
+}
+
+.dialog .row.top {
+	margin: 0;
+}
+
+.dialog .button-row {
+	margin: 5px 0 0 0;
+	text-align: right;
+	width: 480px;
+}
+
+.dialog div:after {
+  content: ".";
+  display: block;
+  height: 0px;
+  clear: both;
+  visibility: hidden;
+}
+
+.dialog .label {
+	margin: 0;
+	height: 25px;
+}
+
+.dialog .toggle-disabled {
+	color: #777;
+}
+
+.dialog .key {
+	width: 140px;
+	margin-right: 10px;
+	font-weight: bold;
+	text-align: right;
+}
+
+.dialog a.action {
+	margin-left: 5px;
+}
+
+.dialog input[type=text] {
+	border: 1px solid #CCC;
+	padding: 1px;
+	height: 18px;
+	margin: 1px 0 2px 0;
+}
+
+.dialog input[type=text]:hover {
+	border: 1px solid #AAA;
+}
+
+.dialog select {
+	height: 22px;
+	padding: 1px;
+	margin: 1px 0 2px 0;
+	border: 1px solid #CCC;
+}
+
+.dialog select:hover {
+	border: 1px solid #AAA;
+}
+
+.dialog textarea {
+	border: 1px solid #CCC;
+	padding: 1px;
+	margin: 1px 0 2px 0;
+}
+
+.dialog textarea:hover {
+	border: 1px solid #AAA;
+}
+
+.dialog input[type=file] {
+	height: 24px;
+	margin: 0 0 1px 0;
+}
+
+.dialog input[type=radio] {
+	height: 21px;
+	margin: 0 2px 4px 2px;
+}
+
+.dialog input[type=submit], .dialog button {
+	height: 23px;
+	margin: 1px 0;
+}
+
+.dialog input[type=checkbox] {
+	height: 25px;
+	margin: 0 2px;
+}
